@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font: "Fira Sans", sans-serif;
 }
 
 .section {
@@ -16,11 +16,11 @@ body {
 }
 
 .arrow-next {
-    color: var(--bs-primary) !important;
+    color: var(--bs-primary);
 }
 
 .arrow-next:hover {
-    color: var(--bs-primary-dark) !important;
+    color: var(--bs-primary-dark);
 }
 
 .nav-item:hover {
@@ -40,7 +40,7 @@ body {
 }
 
 .class-card {
-    background-color: #eeeeee;
+    background-color: #A2B29F;
     color: black;
     transition-property: all;
     transition-duration: 0.3s;

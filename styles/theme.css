@@ -1,31 +1,30 @@
 :root {
-    --temple-red-dark: rgb(136, 24, 45);
-    --bs-primary: #88182d;
-    --bs-primary-rgb: 158, 27, 52;
-    --bs-primary-dark: #721426;
-    --bs-primary-dark-rgb: 136, 24, 35;
-
+    --temple-red-dark: #798777;
+    --bs-primary: #A2B29F;
+    --bs-primary-rgb: 162, 178, 159;
+    --bs-primary-dark: #798777;
+    --bs-primary-dark-rgb: 121, 135, 119;
 }
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #88182d;
-    --bs-btn-border-color: #88182d;
+    --bs-btn-bg: #A2B29F;
+    --bs-btn-border-color: #798777;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #721426;
-    --bs-btn-hover-border-color: #721426;
+    --bs-btn-hover-bg: #798777;
+    --bs-btn-hover-border-color: #798777;
     --bs-btn-focus-shadow-rgb: 49, 132, 253;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #721426;
-    --bs-btn-active-border-color: #721426;
+    --bs-btn-active-bg: #798777;
+    --bs-btn-active-border-color: #798777;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #721426;
-    --bs-btn-disabled-border-color: #721426;
+    --bs-btn-disabled-bg: #798777;
+    --bs-btn-disabled-border-color: #A2B29F;
 }
 
 .navbar {
-    --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-active-color: #A2B29F;
     --bs-navbar-padding-x: 0.1rem;
     --bs-navbar-padding-y: 0;
     --bs-navbar-brand-color: white;
@@ -38,20 +37,22 @@
     --bs-nav-link-padding-y: 1rem;
     --bs-nav-link-color: white;
     --bs-nav-link-hover-color: white;
-
 }
 
 .navbar-nav {
-    --bs-nav-link-color: white;
-    --bs-nav-link-hover-color: white;
+    --bs-nav-link-color: #F8EDE3;
+    --bs-nav-link-hover-color: #faf2eb;
+}
+
+#tan-background {
+    background-color: #F8EDE3;
 }
 
 /* .btn-primary {
     background-color: var(--temple-red) !important;
     border-color: var(--temple-red) !important;
 } */
-
-/* .btn-primary:hover {
+    /* .btn-primary:hover {
     background-color: var(--temple-red-dark) !important;
     border-color: var(--temple-red-dark) !important;
 } */
